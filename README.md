@@ -10,7 +10,11 @@ Train a Decision Tree Classifier to accurately predict the target variable based
 
 ## Files
 - **Task 3 - Decision Tree.ipynb**: The Jupyter notebook containing the implementation of the decision tree model.
-- **Dataset file (e.g., dataset.csv)**: The data used to train and evaluate the model.
+- **Dataset file**: The data used to train and evaluate the model
+- # Fetch the Bank Marketing dataset using
+```python
+bank_marketing = fetch_ucirepo(id=222).
+```
 
 ## Requirements
 The following Python libraries are required to run the project:
@@ -19,7 +23,7 @@ The following Python libraries are required to run the project:
 
 ## Steps to Run
 1. Open the Jupyter notebook `Task 3 - Decision Tree.ipynb`.
-2. Ensure the dataset file (e.g., `dataset.csv`) is in the same directory.
+2. Ensure the dataset file is in the same directory.
 3. Follow the instructions in the notebook to execute each cell sequentially.
 4. The notebook includes the following steps:
    - Data loading and preprocessing
